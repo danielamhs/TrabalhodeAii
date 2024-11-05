@@ -2,6 +2,18 @@
 def soma(x, y):
     return x + y
 
+# Função para subtração
+def subtracao(x, y):
+    return x - y
+
+# Função para multiplicação
+def multiplicacao(x, y):
+    return x * y
+
+# Função para divisão
+def divisao (x, y):
+    return x / y
+    
 # Função principal
  operador =input("Digite a operação: ")
         if operador == "soma":
