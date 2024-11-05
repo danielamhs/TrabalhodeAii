@@ -43,3 +43,14 @@ def calculadora():
             result= divisao(num1, num2)
             print("resultado da divisão: " + str(result))
             lista_contas.append(str(num1) + "/" + str(num2) + "=" + str(result))
+        elif operador == ("hist"):
+            if len(lista_contas) == 0:
+                print("sem nenhuma operação")
+            for item in lista_contas:
+                print(item)
+        else:
+            print("operacao nao suportada")
+        print(lista_contas)
+
+# Excutar a calculadora
+calculadora()
